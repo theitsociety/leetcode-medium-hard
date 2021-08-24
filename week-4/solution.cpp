@@ -22,7 +22,7 @@ public:
         string result = S;
         S += S;
         for(int i = 0; i < n; i++){
-            if(result > S.substr(i,n)) result = S.substr(i);
+            if(result > S.substr(i,n)) result = S.substr(i,n);
         }
         return result.substr(0,n);
     }
