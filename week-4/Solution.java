@@ -3,7 +3,7 @@ import java.util.Arrays;
 class Solution {
     public String orderlyQueue(String s, int k) {
         if(k>1){
-            char[] arr= s.toCharArray();
+            char[] arr = s.toCharArray();
             Arrays.sort(arr);
             return new String(arr);
         }
